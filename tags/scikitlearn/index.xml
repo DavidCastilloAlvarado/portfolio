@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ScikitLearn on David Castillo</title>
+    <link>https://davidcastilloalvarado.github.io/portfolio/tags/scikitlearn/</link>
+    <description>Recent content in ScikitLearn on David Castillo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Aug 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://davidcastilloalvarado.github.io/portfolio/tags/scikitlearn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project 1: Sound Classification ESC10</title>
+      <link>https://davidcastilloalvarado.github.io/portfolio/post/project-1/</link>
+      <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://davidcastilloalvarado.github.io/portfolio/post/project-1/</guid>
+      <description>Background In this new era of automatization, we can make some process automatically, like recognize sound and get work on it, to deploy predictive maintenance or trigger alarms in machines. Like a rotatory machine, like rotors or bearings, o the bigger ones like hydro electric generators. So, this work is about that, classify sound into 10 different classes. I have implemented differents model and a benchmark of models to compare several algorithms to get which one is the best.</description>
+    </item>
+    
+  </channel>
+</rss>
