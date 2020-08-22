@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on David Castillo</title>
+    <link>https://davidcastilloalvarado.com/tags/</link>
+    <description>Recent content in Tags on David Castillo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Aug 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://davidcastilloalvarado.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LSTM</title>
+      <link>https://davidcastilloalvarado.com/tags/lstm/</link>
+      <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://davidcastilloalvarado.com/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ScikitLearn</title>
+      <link>https://davidcastilloalvarado.com/tags/scikitlearn/</link>
+      <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://davidcastilloalvarado.com/tags/scikitlearn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sound Classification</title>
+      <link>https://davidcastilloalvarado.com/tags/sound-classification/</link>
+      <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://davidcastilloalvarado.com/tags/sound-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STFT</title>
+      <link>https://davidcastilloalvarado.com/tags/stft/</link>
+      <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://davidcastilloalvarado.com/tags/stft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TensorFlow</title>
+      <link>https://davidcastilloalvarado.com/tags/tensorflow/</link>
+      <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://davidcastilloalvarado.com/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
