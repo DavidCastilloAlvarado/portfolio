@@ -9,4 +9,4 @@ cd public
 git checkout static
 git add .
 git commit
-git push origin static
+git push origin static -f
