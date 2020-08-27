@@ -1,12 +1,12 @@
 ---
 date: 2020-08-16T10:58:08-04:00
 description: "From 400 samples sound in 10 classes"
-featured_image: "/images/proyect1/CRNN.png"
+featured_image: "/images/project1/CRNN.png"
 tags: ["LSTM","Sound Classification", "STFT","TensorFlow","ScikitLearn"]
 title: "Project 1: Sound Classification ESC10"
 ---
 
-## Background
+## Background:
 In this new era of automatization, we can make some process automatically, like recognize sound and get work on it, to deploy predictive maintenance or trigger alarms in machines.
 Like a rotatory machine, like rotors or bearings, o the bigger ones like hydro electric generators.
 So, this work is about that, classify sound into 10 different classes. I have implemented differents model and a benchmark of models to compare several algorithms to get which one is the best.
@@ -22,13 +22,13 @@ So, this work is about that, classify sound into 10 different classes. I have im
 ## EDA
 The sound lenght in the dataset doesn't equal, so i decide to made all equal, cut or padding with ceros, the lenght, to 4 secons in 44Khz sample rate, that beacuse the media was around 4 seconds lenght.
 
-{{< figure src="/images/proyect1/sound_sample.png" title="" >}}
+{{< figure src="/images/project1/sound_sample.png" title="" >}}
 
 Another pre-procesing analisys was, how take the initial caracteristics of the sound, i meand the spectrum of sound in each example. Analising the sound samples i have seen that we can work with STFT without problems, because our samples was into a relative short frecuency range [0-16Khz], this was no problem, keep frecuency resolution and time resolution.
 * n_fft = 1024
 * win_length=1024 
 * hop_length=int(win_length/2)
-{{< figure src="/images/proyect1/STFT.png" title="" >}}
+{{< figure src="/images/project1/STFT.png" title="" >}}
 
 ## Pipeline
 * Input Simple <p>
@@ -61,8 +61,8 @@ XGB+NCA-300| 0.637
 KNC-NCA-300| 0.45
 KNC-PCA-300| 0.45
  CRNN = CNN+LSTM-BI+LSM+MLP| 0.825
- {{< figure src="/images/proyect1/CRNN.png" title="" >}}
-  {{< figure src=/images/proyect1/training_loss_RCNN.png title="" >}}
+ {{< figure src="/images/project1/CRNN.png" title="" >}}
+  {{< figure src=/images/project1/training_loss_RCNN.png title="" >}}
 
 ## Conclusions
 * We can reduce dimensionality to our data, but not always is the best choice

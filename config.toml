@@ -14,7 +14,7 @@ canonifyURLs = true
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
-  filename = "sitemap.xml"
+  filename = "sitemap.xml" 
 
 [params]
   favicon = "/images/logo2.jpg"

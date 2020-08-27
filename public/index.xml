@@ -6,10 +6,19 @@
     <description>Recent content in Data Science Portfolio on David Castillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2020 12:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 08:58:08 -0500</lastBuildDate>
     
 	<atom:link href="https://davidcastilloalvarado.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project 2: Titanic - ¿Who survive?</title>
+      <link>https://davidcastilloalvarado.github.io/portfolio/post/project-2/</link>
+      <pubDate>Wed, 26 Aug 2020 08:58:08 -0500</pubDate>
+      
+      <guid>https://davidcastilloalvarado.github.io/portfolio/post/project-2/</guid>
+      <description>Context: Like a data scientist, i have made educational project to help myself and other to go deeply into data science popular tools and methods. In that way, this project has educational purpose, I will go through with EDA to response the principal questions over a tragedy like Titanic was, like what characterize to survivors or if the wealthiness is a factor. Also features engineer to fix the data missing o for create more features to better understand, and finally proceed with classification model that going to predict if a passenger survives basing of his features in the data set all this in the context of a Kaggel’s contend.</description>
+    </item>
     
     <item>
       <title>Project 1: Sound Classification ESC10</title>
@@ -17,7 +26,7 @@
       <pubDate>Sun, 16 Aug 2020 10:58:08 -0400</pubDate>
       
       <guid>https://davidcastilloalvarado.github.io/portfolio/post/project-1/</guid>
-      <description>Background In this new era of automatization, we can make some process automatically, like recognize sound and get work on it, to deploy predictive maintenance or trigger alarms in machines. Like a rotatory machine, like rotors or bearings, o the bigger ones like hydro electric generators. So, this work is about that, classify sound into 10 different classes. I have implemented differents model and a benchmark of models to compare several algorithms to get which one is the best.</description>
+      <description>Background: In this new era of automatization, we can make some process automatically, like recognize sound and get work on it, to deploy predictive maintenance or trigger alarms in machines. Like a rotatory machine, like rotors or bearings, o the bigger ones like hydro electric generators. So, this work is about that, classify sound into 10 different classes. I have implemented differents model and a benchmark of models to compare several algorithms to get which one is the best.</description>
     </item>
     
     <item>
