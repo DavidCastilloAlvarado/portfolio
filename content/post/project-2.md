@@ -3,7 +3,7 @@ date: 2020-08-26T08:58:08-05:00
 description: "Most popular Open Kaggle's contend"
 featured_image: "/images/project2/titanic.jpg"
 tags: ["Kaggle","Machine learning", "EDA","ScikitLearn"]
-title: "Project 2: Titanic - ¿Who survive?"
+title: "Project 2: Titanic - ¿Who survived?"
 ---
 
 ## Context:
@@ -85,7 +85,7 @@ Understand the relationship between the circuntances and the outcome, that finis
 * I observe that been wealthy is a big factor to survive, however be a woman if another big factor to survive in that kind of context, because in navy there is a quote ["Women and children’s first"]
 (https://en.wikipedia.org/wiki/Women_and_children_first)
 
-[GitHub - Project 2: Titanic - ¿Who survive?](https://github.com/DavidCastilloAlvarado/titanic_kaggle)
+[GitHub - Project 2: Titanic - ¿Who survived?](https://github.com/DavidCastilloAlvarado/titanic_kaggle)
 
-[Kaggle - Project 2: Titanic - ¿Who survive?](https://www.kaggle.com/scarecrow2020/titanic-study-by-david-castillo)
+[Kaggle - Project 2: Titanic - ¿Who survived?](https://www.kaggle.com/scarecrow2020/titanic-study-by-david-castillo)
 
