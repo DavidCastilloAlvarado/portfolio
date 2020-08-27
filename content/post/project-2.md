@@ -18,22 +18,26 @@ Understand the relationship between the circuntances and the outcome, that finis
 ## EDA
 
 * Understand the data behavior <p>
-  1.0 Histograms<p>
+
+  1.0 Histograms to show the behave of numerical data<p>
   ![](/images/project2/numerica_hist.png)
-  2.0 Barchars <p>
+  2.0 Barchars to show the presence of categorical data <p>
   ![](/images/project2/char_catg.png)
-  3.0 Value counts <p>
-  4.0 Missing data<p>
+  3.0 Balance in every feature <p>
+
+  4.0 Missing values<p>
+
   5.0 correlations of some features<p>
   ![](/images/project2/corr.png)
 * Explore interesting themes <p>
-  1 Rich people survive more?<p>
+
+  1 Rich people survive more¿?<p>
   ![](/images/project2/pcall_survive.png)
 
-  2.0 Young people survive more? <p>
+  2.0 Young people survive more¿? <p>
   ![](/images/project2/survive_age.png)
 
-  3.0 Female survive more?, what about kids and old people<p>
+  3.0 Female survive more ¿? <p>
   ![](/images/project2/survive_catg_data.png)
 
   4.0 How the fare payment affects the survival<p>
