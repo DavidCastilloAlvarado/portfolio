@@ -25,38 +25,44 @@ Understand the relationship between the circuntances and the outcome, that finis
   ![](/images/project2/char_catg.png)
   3.0 Balance in every feature <p>
 
-  4.0 Missing values<p>
+  4.0 Missing values<p> 
 
   5.0 correlations of some features<p>
+  
   ![](/images/project2/corr.png)
 * Explore interesting themes <p>
 
   1 Rich people survive more¿?<p>
+
   ![](/images/project2/pcall_survive.png)
 
   2.0 Young people survive more¿? <p>
+
   ![](/images/project2/survive_age.png)
 
   3.0 Female survive more ¿? <p>
+
   ![](/images/project2/survive_catg_data.png)
 
   4.0 How the fare payment affects the survival<p>
+
    ![](/images/project2/survive_fare.png)
 
   5.0 Your title name affects your chances to survive<p>
 
-|           |  Miss |  Mr | Mrs  |Others|
-|-----------|-------|-------|-------|-------|
-|Survived |      |        |      |     |
-|NO        |            55  |436  | 26     | 32|
-|YES        |          127  | 81  | 99     | 3|
+  ![](/images/project2/titlename_surviv.png)
 
-  5 Where did you embarked, affects your chance to survive<p>
+  6.0 Where did you embarked, affects your chance to survive<p>
+
   ![](/images/project2/embark_surv.png)
 
-  6 Be alone affects your chance to survive ¿? <p>
+  7.0 Be alone affects your chance to survive ¿? <p>
 
-  7 The quantity of cabin that was bought per passenger affects the survival   ¿?
+  ![](/images/project2/nParents_Survive.png) 
+
+  8.0 The quantity of cabin that was bought per passenger affects the survival   ¿?
+
+  ![](/images/project2/boughtCabin_survi.png) 
 
 ## Feature Engineering
 * Create more features
@@ -69,16 +75,22 @@ Understand the relationship between the circuntances and the outcome, that finis
 
 
 ## Modeling
+* Grid Search
+* Cross validation
 * Model tunning
-* Model benchmark
+* Voting Ensemble
+* Stacking Ensemble
+* Benchmark
 
 | Model  | score  | 
 |---|---|
-| SVC  |    0.8907 |  
-| XGB  | 0.8843 | 
-| KNC  |   0.9335|
-| RFC |    0.9690 |
-| Voting XGB+KNC+RFC| 0.9526| 
+| SVC  |    0.8488 |  
+| XGB  | 0.8724 | 
+| KNC  |   0.8979|
+| RFC |    0.9344 |
+| GBC |    0.8925|
+| Voting XGB+KNC+RFC+SVC| 0.8970| 
+| SKC XGB+KNC+RFC+SVC => XGB|  0.9089|
 
 
 ## Conclusions

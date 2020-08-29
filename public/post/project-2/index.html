@@ -38,7 +38,7 @@
 <meta itemprop="description" content="Most popular Open Kaggle&#39;s contend">
 <meta itemprop="datePublished" content="2020-08-26T08:58:08-05:00" />
 <meta itemprop="dateModified" content="2020-08-26T08:58:08-05:00" />
-<meta itemprop="wordCount" content="457">
+<meta itemprop="wordCount" content="455">
 
 
 
@@ -228,60 +228,29 @@
 <img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/char_catg.png" alt="">
 3.0 Balance in every feature <!-- raw HTML omitted --></p>
 <p>4.0 Missing values<!-- raw HTML omitted --></p>
-<p>5.0 correlations of some features<!-- raw HTML omitted -->
-<img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/corr.png" alt=""></p>
+<p>5.0 correlations of some features<!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/corr.png" alt=""></p>
 </li>
 <li>
 <p>Explore interesting themes <!-- raw HTML omitted --></p>
-<p>1 Rich people survive more¿?<!-- raw HTML omitted -->
-<img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/pcall_survive.png" alt=""></p>
-<p>2.0 Young people survive more¿? <!-- raw HTML omitted -->
-<img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/survive_age.png" alt=""></p>
-<p>3.0 Female survive more ¿? <!-- raw HTML omitted -->
-<img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/survive_catg_data.png" alt=""></p>
-<p>4.0 How the fare payment affects the survival<!-- raw HTML omitted -->
-<img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/survive_fare.png" alt=""></p>
+<p>1 Rich people survive more¿?<!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/pcall_survive.png" alt=""></p>
+<p>2.0 Young people survive more¿? <!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/survive_age.png" alt=""></p>
+<p>3.0 Female survive more ¿? <!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/survive_catg_data.png" alt=""></p>
+<p>4.0 How the fare payment affects the survival<!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/survive_fare.png" alt=""></p>
 <p>5.0 Your title name affects your chances to survive<!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/titlename_surviv.png" alt=""></p>
+<p>6.0 Where did you embarked, affects your chance to survive<!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/embark_surv.png" alt=""></p>
+<p>7.0 Be alone affects your chance to survive ¿? <!-- raw HTML omitted --></p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/nParents_Survive.png" alt=""></p>
+<p>8.0 The quantity of cabin that was bought per passenger affects the survival   ¿?</p>
+<p><img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/boughtCabin_survi.png" alt=""></p>
 </li>
 </ul>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Miss</th>
-<th>Mr</th>
-<th>Mrs</th>
-<th>Others</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Survived</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>NO</td>
-<td>55</td>
-<td>436</td>
-<td>26</td>
-<td>32</td>
-</tr>
-<tr>
-<td>YES</td>
-<td>127</td>
-<td>81</td>
-<td>99</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p>5 Where did you embarked, affects your chance to survive<!-- raw HTML omitted -->
-<img src="https://davidcastilloalvarado.github.io/portfolio/images/project2/embark_surv.png" alt=""></p>
-<p>6 Be alone affects your chance to survive ¿? <!-- raw HTML omitted --></p>
-<p>7 The quantity of cabin that was bought per passenger affects the survival   ¿?</p>
 <h2 id="feature-engineering">Feature Engineering</h2>
 <ul>
 <li>Create more features</li>
@@ -294,8 +263,12 @@
 </ul>
 <h2 id="modeling">Modeling</h2>
 <ul>
+<li>Grid Search</li>
+<li>Cross validation</li>
 <li>Model tunning</li>
-<li>Model benchmark</li>
+<li>Voting Ensemble</li>
+<li>Stacking Ensemble</li>
+<li>Benchmark</li>
 </ul>
 <table>
 <thead>
@@ -307,23 +280,31 @@
 <tbody>
 <tr>
 <td>SVC</td>
-<td>0.8907</td>
+<td>0.8488</td>
 </tr>
 <tr>
 <td>XGB</td>
-<td>0.8843</td>
+<td>0.8724</td>
 </tr>
 <tr>
 <td>KNC</td>
-<td>0.9335</td>
+<td>0.8979</td>
 </tr>
 <tr>
 <td>RFC</td>
-<td>0.9690</td>
+<td>0.9344</td>
 </tr>
 <tr>
-<td>Voting XGB+KNC+RFC</td>
-<td>0.9526</td>
+<td>GBC</td>
+<td>0.8925</td>
+</tr>
+<tr>
+<td>Voting XGB+KNC+RFC+SVC</td>
+<td>0.8970</td>
+</tr>
+<tr>
+<td>SKC XGB+KNC+RFC+SVC =&gt; XGB</td>
+<td>0.9089</td>
 </tr>
 </tbody>
 </table>
